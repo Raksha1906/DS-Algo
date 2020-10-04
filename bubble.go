@@ -28,7 +28,7 @@ func main() {
 	fmt.Println("Bubble Sort \n")
 
 	// creating an integer array with values
-	numbers := []int{6, 2, 1, 5, 3}
+	numbers := []int{4, 2, 1, 5, 3}
 
 	fmt.Println("Before Sorting:", numbers)
 
