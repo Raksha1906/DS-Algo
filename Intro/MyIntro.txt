@@ -1,4 +1,0 @@
-Hey! My name is Shahina Bano and I am a second year undergraduate student.
-Currently, I am working on my coding skills.
-Along with that, I have also done the frontend development.
-Very happy to participate in #HacktoberFest2020.
