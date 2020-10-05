@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+    <link rel="stylesheet" href="styling.css">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- navBar start -->
+    <div class="container">
+        <header class="nav-header">
+            <nav class="navigation">
+                <button class="hamburger-menu">
+                    <div class="line line-1"></div>
+                    <div class="line line-2"></div>
+                    <div class="line line-3"></div>
+                </button>
+                <div class="bg-cover"></div>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">about us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">documentation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <!-- navBar close -->
+    <header>
+        <!-- <a href="#" clas="logo">fit<span>ness</span></a> -->
+        <div class="college-logo">
+        </div>
+        <h1 class="text-center mt-5 ml-5"><a href="#" class="logo">My University XMZ</a></h1>
+        <!-- <div class="toggle"><img src="toggle.jpeg"></div> -->
+
+    </header>
+    <div class="banner d-flex justify-content-around col-12 text-center">
+        <video src="v2.mp4" autoplay muted loop type="mp4"></video>
+        <div class="textBox container col-10">
+            <h2 class="mt-5">Presenting...</h2>
+            <h1 class="text-center mt-5 p-2">Tech Fest 2020</h1>
+            <h5 class="m-4">Hurry up !! catch a bus, be first in the rush</h5>
+            <button id="bttn" class=" btn btn-success mt-4">Register now</button>
+        </div>
+        <div class="imgBox">
+            <!-- <img src="man.png"> -->
+        </div>
+        
+
+    </div>
+    <script>
+        document.querySelector(".hamburger-menu").addEventListener("click", () => {
+            document.querySelector(".navigation").classList.toggle("change");
+        });
+    </script>
+</body>
+
+</html>
