@@ -1,0 +1,3 @@
+This folder includes the html code for the webpage that I have made.
+Along with that, it also include the style sheet for making the page more attractive.
+Gif is also added in background for effective UI.
