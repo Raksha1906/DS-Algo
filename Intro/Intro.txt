@@ -1,0 +1,4 @@
+Hey! This is Shahina Bano, second year undergraduate student from IGDTUW.
+I am currently learning DSA with my fellowmates.
+I have also learned the frontend in Web Development, which is the bases for UI.
+Very excited for #HactoberFest2020.
