@@ -1,0 +1,8 @@
+Hello!
+I'm Yashmita from Delhi, India. 
+Currently, I'm pursuing B.Tech Computer Science and Engineering from Indira Gandhi Technical University for Women, Delhi.
+I'm a coding enthusiast. I code in C++. I started coding from my high school and since then I'm in love with it.
+These days, I'm honing my DS and Algo skills.
+I'm also interested in Web Development and hence working on it too. 
+I've designed some pages for practice!
+I'm just too excited to be a part of HacktoberFest 2020!!
