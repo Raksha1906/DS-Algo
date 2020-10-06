@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: rgba(97, 232, 225,0.7)
+}
+/* navBar */
+.nav-header {
+    width: 100%;
+    height: 20vh;
+    background: transparent;
+    background-size: cover;
+    z-index: 10;
+  }
+  
+  .hamburger-menu {
+    width: 55px;
+    height: 55px;
+    background-color: black;
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+    transition: all 0.5s;
+  }
+  
+  .change .hamburger-menu {
+    background-color: #eef0eb;
+  }
+  
+  .line {
+    width: 30px;
+    height: 2px;
+    background-color: #eee;
+    margin: 2px 0;
+    transform-origin: right;
+    transition: all 0.5s;
+  }
+  
+  .change .line-1 {
+    transform: rotate(-40deg) translateY(-5px);
+    background-color: #67b67b;
+  }
+  
+  .change .line-2 {
+    opacity: 0;
+  }
+  
+  .change .line-3 {
+    transform: rotate(40deg) translateY(5px);
+    background-color: #67b67b;
+  }
+  
+  .bg-cover {
+    background-color: rgb(97, 170, 166);
+    width: 45px;
+    height: 45px;
+    position: fixed;
+    top: 35px;
+    right: 35px;
+    z-index: 100;
+    border-radius: 50%;
+    transition: transform 0.5s;
+  }
+  
+  .change .bg-cover {
+    transform: scale(150);
+  }
+  
+  .nav-list {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    z-index: 200;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s;
+  }
+  
+  .change .nav-list {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .nav-item {
+    margin: 1.5vh 0;
+
+  }
+  
+  .nav-link {
+    font-family: "Dancing Script", cursive;
+    font-weight: 600;
+    font-size: 2rem;
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    transition: letter-spacing 0.2s;
+  }
+  
+  .nav-link:hover {
+    letter-spacing: 0.8rem;
+  }
+/* navBar close */
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+    z-index: 1;
+}
+
+header .college-logo{
+  width: 180px;
+  height: 170px;
+  border-radius: 50%;
+  position: absolute;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+header .logo{
+    position: relative;
+    /* font-size: 2em; */
+     color: rgba(97, 232, 225,0.7);
+     text-transform: uppercase;
+     /* font-weight: 700; */
+     letter-spacing: 2px;
+     text-decoration: none;
+}
+header .logo span{
+    color: #37d72f;
+}
+header .toggle
+{
+    max-width: 60px;
+    cursor: pointer;
+}
+header .toggle img
+{
+    max-width: 100%;
+   
+}
+.banner{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 100px;
+    background: rgb(0, 0, 0);
+    /* display: flex;
+    justify-content: flex-start; */
+    align-items: center;
+}
+.banner::before
+{
+ content: '';
+ position: absolute;
+ right: -250px;
+ top: 0;
+ width: 300px;
+ height: 100%;
+ background: #61e8e1;
+ transform-origin: top;
+ transform: skewX(-30deg); 
+ z-index: 1;
+}
+.banner video
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.15;
+    pointer-events: none;
+}
+.banner .textBox
+{
+    position: relative;
+    max-width: 600px;
+    left: 23%;
+}
+.banner .textBox h1,h2{
+
+    /* color: white; */
+    font-size: 3em;
+}
+.banner .textBox h1
+{
+  text-align: center;
+}
+
+
+#bttn{
+  border-radius: 0;
+  border:none;
+  background: #61e8e1;
+  box-shadow: 0 0 13px white;
+  cursor: pointer;
+  color: black;
+  font-size: 21px;
+  transition: 0.3s all;
+  border: 1px solid #61e8e1;
+}
+
+#bttn:hover{
+  border: 1px solid #61e8e1;
+  background: transparent;
+  color: white;
+}
+
+.banner .imgBox
+{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.banner .imgBox img{
+
+    position: absolute;
+    bottom: 0;
+    height: 90%;
+}
+.sci
+{
+    position: absolute;
+    bottom: 20px;
+    letter-spacing: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sci li{
+  list-style: none;
+}
+.sci li a{
+    display: inline-block;
+    margin-right: 15px;
+
+}
+.sci li a img
+{
+    transform: scale(0.5);
+    filter: invert(1);
+}
+
+@media (max-width: 991px)
+{
+    header
+    {
+        padding: 20px 50px;
+    }
+    .banner
+    {
+        padding: 150px 50px 0;
+        flex-direction: column ;
+        overflow: hidden;
+    }
+    .banner::before
+    {
+      width: 300px;
+      transform: skewX(-25deg) translateX(50%);
+        
+    }
+    .banner .textBox
+    {
+        max-width: 100%;
+    }
+    .sci
+    {
+        z-index: 1000;
+        left: initial;
+        right: 20px;
+        flex-direction: column;
+    }
+}
