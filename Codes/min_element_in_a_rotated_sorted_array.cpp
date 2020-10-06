@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int findMin(int num[], int n) {
+int findMin(int num[], int n){
     int i, l = 0, h = n-1, mid = 0, ans = INT_MAX;
     while(l <= h){
         mid = (l+h)/2;
