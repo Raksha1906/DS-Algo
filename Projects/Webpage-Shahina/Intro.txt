@@ -1,0 +1,6 @@
+ This is the first webage made by me.
+ Many new things which I learned during my web development course is implemented in this project of mine.
+ I have used different tags of HTML to show case features of HTML.
+ Along with that, great of CSS is done to make it more attractive and user friendly.
+ Different pages have been designed inside the webpage as per conveneince of the user for moving to different tabs.
+GIF has also been used for the more enticing UI.
