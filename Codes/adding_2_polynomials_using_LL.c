@@ -152,3 +152,4 @@ void display(struct node* thead)
        printf(" %dx^%d ",temp->coeff,temp->exp);
     }
 }
+
