@@ -1,0 +1,7 @@
+Hello!
+I'm Akshat from Delhi, India. 
+Currently, I'm pursuing B.Tech Computer Science and IIID, Delhi.
+I'm a coding enthusiast. I code in C++. I started coding from my high school and since then I'm in love with it.
+These days, I'm honing my DS and Algo skills.
+I'm also interested System Design and hence working on it too. 
+I'm just too excited to be a part of HacktoberFest 2020!!
