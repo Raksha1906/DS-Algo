@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            height: 100%;
+            width: 100%;
+        }
+        body{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            margin: 0;
+            z-index: 0;
+            background-color: black;
+        }
+        h1{
+            display: flex;
+            margin: auto;
+            text-align: center;
+            user-select: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 100px;
+            z-index: 2;
+        }
+        .light{
+            display: flex;
+            right: 7px;
+            top: 7px;
+            position: absolute;
+            background-color: yellow;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            box-shadow: 0px 0px 25px yellow;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <h1>HELLO WORLD!</h1>
+    <div class="light"></div>
+    <script>
+        let light = document.querySelector('.light');
+        let aux = false;
+        light.addEventListener('mousedown', function(evt){
+            light.style['transition'] = 0 + 's'
+            light.style['left'] = evt.pageX - 50 + "px";
+            light.style['top'] = evt.pageY - 50 + "px";
+            aux = true;
+        });
+        document.body.addEventListener('mouseup', function(evt){
+            aux=false;
+            console.log('soltei');
+            light.style['transition'] = 0.5+'s'
+            light.style['left'] = window.screen.width-107+"px";
+            light.style['top'] = 7+"px";
+
+        });
+        document.body.addEventListener('mousemove', function(evt){
+            if(aux){
+                light.style['left'] = evt.pageX - 50 + "px";
+                light.style['top'] = evt.pageY - 50 + "px";
+            }
+        })
+    </script>
+</body>
+</html>
