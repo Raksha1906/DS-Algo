@@ -1,0 +1,6 @@
+Hello!
+I'm Apoora from Varanasi, India. 
+Currently, I'm pursuing B.Tech Computer Science and Engineering from Vellore Institute of Technology, Vellore.
+I'm currently practising my backend skills to become a fullstack dev.
+I already have experience in frontend projects.
+I'm really excited to be a part of HacktoberFest 2020!!
