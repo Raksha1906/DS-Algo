@@ -1,0 +1,31 @@
+{
+  "name": "@gregsithole/random-quotes",
+  "version": "1.0.1",
+  "description": "A CLI tool that will generate a random quote",
+  "main": "index.js",
+  "bin": {
+    "@gregsithole/random-quotes": "bin/random-quotes",
+    "random-quotes": "bin/random-quotes"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "quotes",
+    "random quotes"
+  ],
+  "author": "Greg Sithole",
+  "license": "MIT",
+  "dependencies": {
+    "@types/ora": "^3.2.0",
+    "arg": "^4.1.3",
+    "axios": "^0.20.0",
+    "chalk": "^4.1.0",
+    "esm": "^3.2.25",
+    "ora": "^5.1.0"
+  }
+}
