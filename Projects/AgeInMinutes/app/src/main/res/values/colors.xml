@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFA938</color>
+    <color name="colorPrimaryDark">#FFA938</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="textColor">#844046</color>
+    <color name="backgroundColor">#FEF1E0</color>
+    <color name="ageTextBackgroundColor">#FFA938</color>
+</resources>
