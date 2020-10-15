@@ -1,0 +1,8 @@
+Hello!
+
+I'm Priyanshu SIngh from Greater Noida, India. 
+
+Currently, I'm pursuing B.Tech Information Technology from Galgotias College of engineering and technology, Greater Noida.
+I Love web developing.
+These days, I'm learning DS, Algo skills and backend.
+I'm just too excited to be a part of HacktoberFest 2020!!
