@@ -20,3 +20,7 @@ Repository For beginners for HacktoberFest 2020
 - For intro as well as code form of contribution, a sample introduction/code has been added for reference.
 <br>
 - Have a blissful contribution time in HACKTOBERFEST!! 
+
+
+# NOTE :
+# PLEASE DO NOT CREATE ANY PR FROM MAIN BRANCH! 
