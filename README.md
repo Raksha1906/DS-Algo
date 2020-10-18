@@ -12,7 +12,9 @@ Repository For beginners for HacktoberFest 2020
 
 ## Contribution Guidlines
 1. Fork the repo <br>
-2. To contribute yr code, Add yr codes in CODES folder
+2. Star the repo
+3. Create a new branch and add contributions from it.
+4. To contribute yr code, Add yr codes in CODES folder
 3. To contribute intro part, add yr intro in INTRO folder
 <br>
 - For intro as well as code form of contribution, a sample introduction/code has been added for reference.
