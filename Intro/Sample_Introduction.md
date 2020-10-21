@@ -2,12 +2,11 @@
 
 
 
-Hey! I'm ABC. 
+Hey! I'm Dreamy. 
 
-I am proficient/skilled  in ____________________ and _____________________;
+I am proficient/skilled  in making people laugh and C# DotNet Core;
 
-I study at __
+I study at Grand Circus Detroit
 
-My hobbies are ___
+My hobbies are creating scarves and hats
 
-or any Tag Line!
