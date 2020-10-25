@@ -1,6 +1,6 @@
 # HacktoberFest2020
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Hacktoberfest is a month-long celebration of open source software run by DigitalOcean in partnership with GitHub and Twilio.
@@ -39,6 +39,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/yashmita"><img src="https://avatars2.githubusercontent.com/u/55138349?v=4" width="100px;" alt=""/><br /><sub><b>Yashmita</b></sub></a><br /><a href="https://github.com/Raksha1906/HacktoberFest2020/commits?author=yashmita" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/Amandixit10"><img src="https://avatars2.githubusercontent.com/u/55151241?v=4" width="100px;" alt=""/><br /><sub><b>Aman dixit</b></sub></a><br /><a href="https://github.com/Raksha1906/HacktoberFest2020/commits?author=Amandixit10" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/shahina-bano"><img src="https://avatars3.githubusercontent.com/u/56913578?v=4" width="100px;" alt=""/><br /><sub><b>shahina-bano</b></sub></a><br /><a href="https://github.com/Raksha1906/HacktoberFest2020/commits?author=shahina-bano" title="Documentation">📖</a></td>
   </tr>
 </table>
 
