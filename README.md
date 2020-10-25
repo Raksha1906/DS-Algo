@@ -1,4 +1,7 @@
 # HacktoberFest2020
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Hacktoberfest is a month-long celebration of open source software run by DigitalOcean in partnership with GitHub and Twilio.
 Hacktoberfest is open to everyone in our global community!
@@ -24,3 +27,22 @@ Repository For beginners for HacktoberFest 2020
 
 # NOTE :
 # PLEASE DO NOT CREATE ANY PR FROM MAIN BRANCH! 
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/yashmita"><img src="https://avatars2.githubusercontent.com/u/55138349?v=4" width="100px;" alt=""/><br /><sub><b>Yashmita</b></sub></a><br /><a href="https://github.com/Raksha1906/HacktoberFest2020/commits?author=yashmita" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
