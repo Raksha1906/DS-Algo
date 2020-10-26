@@ -1,0 +1,8 @@
+Hello!
+
+I'm Himanshu Kumawat from Jaipur, Rajasthan, India.
+
+Currently, I'm pursuing MCA from ISIM, Jaipur.
+I Love web developing.
+These days, I'm learning Android Development and Python.
+I'm just too excited to be a part of HacktoberFest 2020!!
