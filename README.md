@@ -25,8 +25,7 @@ Repository For beginners for HacktoberFest 2020
 - Have a blissful contribution time in HACKTOBERFEST!! 
 
 
-# NOTE :
-# PLEASE DO NOT CREATE ANY PR FROM MAIN BRANCH! 
+# NOTE : PLEASE DO NOT CREATE ANY PR FROM MAIN BRANCH! 
 
 ## Contributors ✨
 
