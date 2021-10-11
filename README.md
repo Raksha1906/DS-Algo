@@ -1,4 +1,4 @@
-# HacktoberFest2020
+# HacktoberFest2020 and HacktobeFest2021
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
@@ -10,8 +10,9 @@ Repository For beginners for HacktoberFest 2020
 
 ## Contributions can be in form of :
 - Short Introduction 
-- Code in any programming language
-- Any project 
+- DS-Algo Code in any programming language
+- Article about any DS-Algo Topic
+- Article about any Aptitude Topic
 
 ## Contribution Guidlines
 1. Fork the repo <br>
