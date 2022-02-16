@@ -1,0 +1,142 @@
+i think this is enough
+
+
+
+
+Control your electronics with an Google Assistant + Arduino UNO + ESP8266
+
+Contents
+REQUIREMENTS
+PINOUT
+PINOUT FINAL
+PINOUT FLASHING ESP-01
+PINOUT AT COMMAND MODE ESP-01
+FLASHING ESP8266 (Optional)
+FLASH ESP-01 WITH ESPTOOL
+INSTALLATION
+Setting up Blynk
+Setting up IFTTT
+Upload Code and Test
+TROUBLESHOOT
+SET ESP-01 BAUD RATE TO 9600 VIA AT COMMAND (Recommended)
+
+
+
+
+REQUIREMENTS
+Android phone Marsmallow or higher or Apple phone (for Google Assistant)
+IFTTT Account
+Blynk App Account
+Arduino UNO
+ESP8266 (ESP-01) WiFi Module
+Some Jumper Cables
+Relay SRD-05VDC-SL-C (Optional)
+USB TTL Serial (Optional)
+5V to 3.3V Logic Converter (Optional)
+PINOUT
+Use the PINOUT FINAL if you done with anything in this project.
+
+PINOUT FINAL
+The basic pinout of this project.
+
+UNO	ESP-01
+D2 (as TX)	RX
+D3 (as RX)	TX
+GND	GND
+3V3	3V3
+3V3	EN
+UNO	LED
+D7	ANODE (+)
+GND	CATHODE (-)
+UNO	RELAY
+D8	IN
+5V	VCC
+GND	GND
+
+
+
+PINOUT FLASHING ESP-01
+Use this pinout only when you need to flash your ESP-01 Firmware
+
+ESP-01	USB TTL
+TX	RX
+RX	TX
+GND	GND
+IO2	GND
+3V3	3V3
+EN	3V3
+PINOUT AT COMMAND MODE ESP-01
+Use this pinout when you need to interact with AT Command only
+
+ESP-01	USB TTL
+TX	RX
+RX	TX
+GND	GND
+3V3	3V3
+EN	3V3
+Then use Serial Monitor from Arduino IDE to interact with AT
+
+FLASHING ESP8266 (Optional)
+Use this if your ESP8266 have old or deprecated firmware installed. Remember to use PINOUT FLASHING ESP-01 for your jumper cable pinout in this step.
+
+FLASH ESP-01 WITH ESPTOOL
+FIRMWARE ESP-01 :
+
+AT V1.6.2
+SDK V2.2.1
+Flash SDK First > Then Flash AT Afterward
+
+esptool.py --port /dev/ttyUSB0 --baud 115200 write_flash --flash_size 1MB --flash_mode dio <MEMORY ADDRESS 0> <FILE-0.BIN> <MEMORY ADDRESS 1> <FILE-1.BIN> <MEMORY ADDRESS N> <FILE-N.BIN>
+Memory Address :
+
+File	Address
+boot_v1.2.bin	0x00000
+user1.1024.new.2.bin	0x01000
+esp_init_data_default.bin	0xfc000
+blank.bin	0x7e000 & 0xfe000
+
+
+
+
+INSTALLATION
+Setting up Blynk
+Follow instruction on http://blynk.cc/getting-started/
+Download and install Blynk App for Android or IOS
+Install Blynk Library for Arduino IDE
+Open Blynk App
+Create 'New Project'
+Choose 'Arduino UNO' and 'WiFi' then click 'Create'
+Get the Blynk Auth Token. Note it
+Click on + sign on the top and one Button
+Click on Button and set the pin to 'Digital' and 'D7'. Set pin values to 1 and 0. Set switch to 'Push'
+Create same as step 5 for D8 pin
+Setting up IFTTT
+Register IFTTT account
+Create Trigger (IF)
+Search Google Assistant
+Select 'Say a phrase with a text ingredient'. Enter everything you need.
+Choose Action (THEN)
+Search Webhooks
+Click on 'Make a web Request'
+Set the action
+URL
+http://blynk-cloud.com/YourBlynkAuthToken/update/D7
+Replace YourBlynkAuthToken with your Auth Token that you get from Setting Up Blynk step.
+
+Method
+PUT
+Content Type
+application/json
+Body
+["1"]
+and accept etc. That body part decides what you put in D7 pin. Apparenly this will make the led light up. Then you can define another IFTTT Applet to write ["0"] on the pin to turn it off. And create again for D8 pin.
+
+Upload Code and Test
+Don't forget to import the Blynk Library to your Arduino IDE. You can follow this instructions for import the library to your Arduino IDE. Use OkGoogleArduino.ino sketch code. Don't forget to edit this variable:
+
+char auth[] = "8f180320xxxxxxxxxc458c50faa";
+char ssid[] = "iPhone 5S";
+char pass[] = "11211111";
+Replace it with your Blynk auth key, WiFi access point, and WiFi password. If your WiFi has no password, then use this.
+
+char pass[] = ""
